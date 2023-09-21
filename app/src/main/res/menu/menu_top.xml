@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.project.d_308_final.UI.MainActivity">
+
+    <item android:id="@+id/save"
+        android:title="Save"
+        android:icon="@android:drawable/ic_menu_save"
+        android:contentDescription="Save"
+
+        />
+
+    <item android:id="@+id/Search"
+        android:title="Search"
+        android:icon="@android:drawable/ic_menu_search"
+        android:contentDescription="Search"
+
+        />
+
+    <item android:id="@+id/Notify"
+        android:title="Notify"
+        android:icon="@android:drawable/ic_notification_overlay"
+        android:contentDescription="Search"
+
+        />
+
+</menu>

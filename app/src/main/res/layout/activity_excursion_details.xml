@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UI.ExcursionDetails">
+
+    <!-- Use a top-level ConstraintLayout as the root container -->
+
+    <!-- Create a vertical LinearLayout to organize views -->
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="300dp">
+
+        <!-- Group related views within the LinearLayout -->
+
+        <!-- Create a nested LinearLayout for Excursion Title -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Label for Excursion Title -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Excursion Title"
+                android:contentDescription="Excursion Title" />
+
+            <!-- EditText for Excursion Title -->
+            <EditText
+                android:id="@+id/excursion_title"
+                android:inputType="text"
+                android:layout_width="200dp"
+                android:layout_height="50dp" />
+        </LinearLayout>
+
+        <!-- Create a nested LinearLayout for Excursion Date -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Label for Excursion Date -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Excursion Date"
+                android:contentDescription="Excursion Date" />
+
+            <!-- EditText for Excursion Date -->
+            <EditText
+                android:id="@+id/excursion_date"
+                android:inputType="date"
+                android:layout_width="200dp"
+                android:layout_height="50dp" />
+        </LinearLayout>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.constraintlayout.widget.ConstraintLayout>

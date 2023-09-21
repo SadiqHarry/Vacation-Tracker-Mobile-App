@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/excursion_save"
+        android:title="Excursion Save"
+        android:icon="@android:drawable/ic_menu_save"
+        android:contentDescription="Save"
+
+        />
+
+    <item android:id="@+id/Search"
+        android:title="Search"
+        android:icon="@android:drawable/ic_menu_search"
+        android:contentDescription="Search"
+
+        />
+
+    <item android:id="@+id/Notify"
+        android:title="Notify"
+        android:icon="@android:drawable/ic_notification_overlay"
+        android:contentDescription="Search"
+
+        />
+
+    <item android:id="@+id/excursion_delete"
+        android:title="Excursion Delete"
+        android:icon="@android:drawable/ic_delete"
+        android:contentDescription="Excursion Delete"
+
+        />
+</menu>
