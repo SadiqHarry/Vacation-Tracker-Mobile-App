@@ -15,7 +15,7 @@
 - **Issue Tracking:** GitLab Issues
 
 ## Google Play Store Deployment
-[Mobile App](https://play.google.com/store/apps/details?id=com.mobile.VacationTracker)
+[https://play.google.com/store/apps/details?id=com.mobile.VacationTracker](https://play.google.com/store/apps/details?id=com.mobile.VacationTracker)
 
 
 
